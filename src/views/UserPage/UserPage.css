@@ -1,0 +1,44 @@
+@media only screen and (min-width: 769px) {
+  .shadow {
+    margin-top: -50px !important;
+  }
+  .registration-heading {
+    font-size: 55px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    color: #111111d0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  .registration-heading {
+    font-size: 40px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    color: #111111d0 !important;
+  }
+  .shadow {
+    margin-top: -50px !important;
+  }
+  .registration-welcome {
+    margin-top: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .registration-heading {
+    font-size: 30px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    color: #111111d0 !important;
+  }
+  .shadow {
+    margin-top: -60px !important;
+  }
+  .registration-welcome {
+    margin-top: 10px !important;
+  }
+  .registration-description {
+    font-size: 16px !important;
+  }
+}

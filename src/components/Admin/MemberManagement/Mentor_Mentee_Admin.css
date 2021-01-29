@@ -1,0 +1,116 @@
+.MM_table_container1 {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #11111150;
+  background-color: #f7fafc;
+  width: 100%;
+  margin-top: 21px;
+  padding: -2px;
+}
+
+.MM_table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.MM_table_lista {
+  height: 500px;
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.MM_table_tra {
+  margin: -2px -2px 0 -2px;
+  display: inline-block;
+  width: 100%;
+  border: 2px solid #f7fafc;
+  box-shadow: 0 2px 4px #11111150;
+  color: #f7fafc;
+  border-radius: 5px 5px 0 0;
+}
+
+.MM_table_td_L {
+  background-color: #17c3ca;
+  display: inline-block;
+  width: 50%;
+  border-radius: 3px 0 0 0;
+}
+
+.MM_table_td_L:hover {
+  cursor: pointer;
+  background-color: #17c3cac0;
+}
+
+.MM_table_td_R {
+  background-color: #17c3ca;
+  display: inline-block;
+  width: 50%;
+  border-radius: 0 3px 0 0;
+}
+
+.MM_table_td_R:hover {
+  cursor: pointer;
+  background-color: #17c3cac0;
+}
+
+.MM_table_button {
+  font-weight: bold;
+  user-select: none;
+  margin: -3px;
+  padding: 12px 0 12px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.MM_br {
+  border-right: 2px solid #f7fafc;
+}
+
+.MM_table_tr_itema {
+  margin-bottom: 0px;
+  height: 60px;
+  width: 100%;
+  border-top: 1px solid #11111150;
+}
+
+.MM_itema {
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  text-align: start;
+}
+
+.MM_imga {
+  margin-left: 25px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-flex;
+  width: 280px;
+  height: 280px;
+  border: 2px solid #f7fafc;
+  box-shadow: 0 2px 4px #11111150;
+  object-fit: cover;
+}
+
+.MM_namea {
+  overflow: hidden;
+  width: 70%;
+  height: 100%;
+  font-size: 2vw;
+  margin-left: 20px;
+  padding-top: 0.6vh;
+  display: inline-flex;
+  font-weight: bold;
+  border-right: 1px solid #11111150;
+  margin-block-end: 0;
+}
+
+.MM_favorites_container {
+  display: unset;
+  background-color: #11111120;
+  margin-top: -3px;
+  margin-bottom: 5px;
+  padding: 9px 0 0 2%;
+  height: 60px;
+  width: 10%;
+}

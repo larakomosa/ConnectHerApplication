@@ -1,0 +1,37 @@
+#############################################
+# BASE PRODUCTION DOCKERFILE SETTINGS
+# ----------
+#
+# Deploying to Heroku
+# ----------
+#
+# doker-compose up web
+#
+# heroku login
+# heroku container:login
+# heroku create
+#
+# heroku addons:create heroku-postgresql:hobby-dev
+#
+# heroku container:push web
+# heroku container:release web
+#############################################
+# Base image we are modifying from https://hub.docker.com/
+FROM node:12-alpine
+# Creating App Directory
+RUN mkdir -p /app
+WORKDIR /app
+#############################################
+# COPY DEPENDENCIES TO CONTAINER BE & FE
+#############################################
+COPY ./client/package.json /app/client/package.json
+COPY package.json /app
+
+# install and cache server dependencies
+RUN npm install
+COPY . /app
+RUN npm run build
+COPY ./build /app/build
+
+# Run final command to kick off server
+CMD ["npm", "run", "start"]

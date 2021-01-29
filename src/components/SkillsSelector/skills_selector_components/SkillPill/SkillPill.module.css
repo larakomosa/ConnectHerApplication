@@ -1,0 +1,17 @@
+.pill {
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 0.33rem 0.25rem;
+    padding: 1px 8px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.05s 0.08s all ease-in-out;
+}
+
+.pill:hover {
+    background-color: #BC91D9;
+    color: white;
+    border-color: #BC91D9;
+}

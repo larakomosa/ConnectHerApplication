@@ -1,0 +1,522 @@
+.popupAnimClose {
+  height: 340px;
+  width: 0px;
+  margin-right: -3px;
+  transition: 500ms;
+}
+.popupAnimOpen {
+  height: 340px;
+  width: 300px;
+  transition: 500ms;
+}
+
+.popupAnimOpenFavorite {
+  height: 340px;
+  width: 300px;
+  transition: 500ms;
+}
+
+.popupAnimFavorite {
+  height: 340px;
+  width: 0px;
+  margin-right: -3px;
+  transition: 500ms;
+}
+
+.chatButtonBox {
+  cursor: pointer;
+  margin-top: -4px;
+  box-shadow: 0 2px 4px #11111150;
+  padding: 0;
+  border-radius: 100px 0 0 100px;
+  background-color: #17c3ca;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  border-right: 0;
+  color: #f7fafc;
+  height: 75px;
+}
+
+.chatButtonBox:hover {
+  box-shadow: 0 2px 12px #111111d0;
+}
+
+.favoriteButtonBox {
+  cursor: pointer;
+  margin-top: 3px;
+  box-shadow: 0 2px 4px #11111150;
+  padding: 0;
+  border-radius: 100px 0 0 100px;
+  background-color: #17c3ca;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  border-right: 0;
+  color: #f7fafc;
+  height: 75px;
+}
+
+.favoriteButtonBox:hover {
+  box-shadow: 0 2px 12px #111111d0;
+}
+
+.buttonAnimClose {
+  width: 75px;
+  transition: 500ms;
+}
+
+.buttonAnimOpen {
+  margin-left: -300px;
+  width: 375px;
+  transition: 500ms;
+}
+
+.closePopup {
+  cursor: pointer;
+  overflow: hidden;
+  width: 35px;
+  height: 33px;
+  border-radius: 2px 0 0 0;
+  border-right: 2px solid #d6f3f3;
+  background-color: #d6f3f3;
+}
+
+.closePopup:hover {
+  background-color: #bceef0;
+  border-right: 0px;
+}
+.closePopupIcon {
+  margin-top: -2px;
+  margin-left: 3px;
+  font-size: 35px;
+  color: #111111d0;
+}
+.closePopupIcon:hover {
+  color: #000;
+}
+
+.favoriteTitleBox {
+  user-select: none;
+  margin-top: -32px;
+  height: 35px;
+  text-align: center;
+  border-bottom: 3px solid #bceef0;
+}
+
+.favoriteTitle {
+  padding-top: 2px;
+  margin-left: 35px;
+  margin-bottom: 2px;
+  height: 33px;
+  width: 230px;
+  vertical-align: middle;
+  color: #111111d0;
+  overflow: hidden;
+}
+
+.favoriteOption {
+  cursor: pointer;
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  background-color: #d6f3f3;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+}
+.favoriteOption:hover {
+  background-color: #f7fafc;
+}
+
+.favoriteOption:nth-child(even) {
+  border-bottom: 3px solid #f7fafc;
+  border-top: 3px solid #f7fafc;
+}
+.favoriteOption:last-child {
+  border-bottom: 0;
+}
+
+.favoriteOptionTitle {
+  user-select: none;
+  padding-top: 11px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #111111d0;
+}
+
+.popupReturn {
+  margin-bottom: 3px;
+  margin-top: -36px;
+  margin-left: 262px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 35px;
+  height: 33px;
+  border-left: 2px solid #d6f3f3;
+  background-color: #d6f3f3;
+}
+
+.popupReturn:hover {
+  background-color: #bceef0;
+  border-left: 2px solid transparent;
+}
+.popupReturnIcon {
+  margin-top: 1px;
+  margin-left: 3px;
+  font-size: 28px;
+  color: #111111d0;
+}
+.popupReturnIcon:hover {
+  color: #000;
+}
+
+.tabListItem {
+  background-color: #bdecee;
+  border-bottom: 2px solid #f7fafc;
+  height: 50px;
+  width: 100%;
+  transition: 250ms;
+}
+
+.tabListItem:hover {
+  cursor: pointer;
+  background-color: #f7fafc;
+}
+
+.tabListItemDetails {
+  height: 98px;
+  background-color: #f7fafc;
+  width: 100%;
+  transition: 250ms;
+}
+
+.tabListItemDetails:hover {
+  cursor: pointer;
+}
+
+.tabProfileImageContainer {
+  user-select: none;
+  display: inline-block;
+  width: 48px;
+  height: 50px;
+  border-right: 2px solid #f7fafc;
+  border-bottom: 2px solid #f7fafc;
+}
+
+.tabProfileImage {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.tabNameContainer {
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  max-width: 220px;
+  overflow: hidden;
+  margin-left: 10px;
+
+  height: 35px;
+  display: inline-block;
+  color: #111111d0;
+}
+
+.tabName {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.tabItemDetailsClose {
+  margin-top: -2px;
+  border-top: 2px solid #f7fafc;
+  border-bottom: 2px solid #f7fafc;
+  height: 0px;
+  font-size: 0;
+  background-color: #bceef0;
+  overflow: hidden;
+  transition: 50ms;
+}
+
+.tabItemDetailsOpen {
+  font-size: inherit;
+  text-align: center;
+  margin-top: -2px;
+  border-top: 2px solid #f7fafc;
+  border-bottom: 2px solid #f7fafc;
+  height: 50px;
+  background-color: #bceef0;
+  transition: 50ms;
+}
+
+.detailsDeleteContainer {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 125px;
+  text-align: center;
+  border: 2px solid #d6f3f3;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 4px #11111140;
+  border-top: 0px;
+  border-radius: 0 0 5px 5px;
+  transition: 250ms;
+  display: inline-block;
+}
+
+.detailsDeleteContainer2 {
+  margin-top: 0px;
+  height: 40px;
+  width: 125px;
+  text-align: center;
+  border: 2px solid #d6f3f3;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 4px #11111140;
+  border-top: 0px;
+  border-radius: 0 0 5px 5px;
+  transition: 250ms;
+  display: inline-block;
+}
+
+.detailsMessageContainer {
+  margin-top: 0px;
+  margin-right: 15px;
+  height: 40px;
+  width: 125px;
+  text-align: center;
+  border: 2px solid #d6f3f3;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 4px #11111140;
+  border-top: 0px;
+  border-radius: 0 0 5px 5px;
+  transition: 250ms;
+  display: inline-block;
+}
+
+.detailsDeleteContainer:hover {
+  box-shadow: 0 4px 4px #11111170;
+  transition: 250ms;
+}
+
+.detailsDeleteContainer2:hover {
+  box-shadow: 0 4px 4px #11111170;
+  transition: 250ms;
+}
+
+.detailsMessageContainer:hover {
+  box-shadow: 0 4px 4px #11111170;
+  transition: 250ms;
+}
+
+.detailsDelete {
+  user-select: none;
+  padding-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.chatBoxContainer {
+  overflow: none;
+  height: 298px;
+  transition: 250ms;
+}
+
+.chatBoxContainerOpened {
+  overflow: none;
+  height: 128px;
+  transition: 250ms;
+}
+
+.chatBox {
+  background-color: #f7fafc;
+  height: 245px;
+  width: 297px;
+  margin-bottom: 2px;
+  overflow: scroll;
+  transition: 250ms;
+}
+
+.chatBoxOpened {
+  background-color: #f7fafc;
+  height: 131px;
+  margin-bottom: 2px;
+  overflow: scroll;
+  transition: 250ms;
+}
+
+.chatBoxCharaLeft {
+  margin: -60px 0 0 5px;
+  padding: 5px 0 2px 15px;
+  font-size: 10px;
+  font-weight: bolder;
+  font-style: italic;
+  opacity: 80%;
+  transition: 250ms;
+}
+
+.chatBoxCharaLeftOpened {
+  margin: -176px 0 0 5px;
+  padding: 5px 0 2px 15px;
+  font-size: 10px;
+  font-weight: bolder;
+  font-style: italic;
+  opacity: 80%;
+  transition: 250ms;
+}
+
+.chatMessengerBox {
+  background-color: #d6f3f3;
+  border-top: 2px solid #bceef0;
+  margin-top: -2px;
+  width: 300px;
+  height: 55px;
+  display: inline-flex;
+  transition: 250ms;
+}
+
+.chatMessengerBoxOpened {
+  background-color: #d6f3f3;
+  border-top: 2px solid #bceef0;
+  margin-top: -2px;
+  width: 300px;
+  height: 170px;
+  display: inline-flex;
+  transition: 250ms;
+}
+
+.chatBoxInput {
+  margin-top: 12px;
+  margin-left: 5px;
+  margin-right: 6px;
+  width: 200px;
+  height: 36px;
+  border-radius: 25px;
+  border-left: 2px solid #cccfd1;
+  border-top: 2px solid #cccfd1;
+  border-right: 2px solid #e4e7e9;
+  border-bottom: 2px solid #e4e7e9;
+  background-color: #f7fafc;
+  box-shadow: 0 2px 4px #11111150;
+  padding: 4px 8px;
+  transition: 250ms;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  resize: none;
+}
+
+.chatBoxInputOpened {
+  margin-top: 11px;
+  margin-left: 5px;
+  width: 285px;
+  height: 151px;
+  border-radius: 18px;
+  border-left: 2px solid #cccfd1;
+  border-top: 2px solid #cccfd1;
+  border-right: 2px solid #e4e7e9;
+  border-bottom: 2px solid #e4e7e9;
+  background-color: #f7fafc;
+  box-shadow: 0 2px 4px #11111150;
+  padding: 8px 8px;
+  transition: 250ms;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  resize: none;
+}
+
+.chatBoxInput:hover {
+  cursor: pointer;
+}
+
+.chatBoxSend {
+  margin-top: 12px;
+  margin-left: 3px;
+  width: 75px;
+  height: 36px;
+  border-radius: 25px;
+  border: 2px solid #f7fafc;
+  background-color: #17c3ca;
+  color: #f7fafc;
+  text-align: center;
+  box-shadow: 0 2px 4px #11111150;
+  font-size: 18px;
+}
+
+.chatBoxSendOpened {
+  width: 0px;
+  height: 36px;
+  border-radius: 25px;
+  border: 0px solid #f7fafc;
+  background-color: #17c3ca;
+  color: #f7fafc;
+  text-align: center;
+  box-shadow: 0 2px 4px #11111150;
+  font-size: 0px;
+}
+
+.chatBoxSend:hover {
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 6px #111111a0;
+}
+
+.chatBoxSendText {
+  margin-top: -2px;
+  margin-left: -2px;
+  font-weight: bolder;
+  height: inherit;
+  width: 75px;
+  font-size: inherit;
+  padding-top: 2px;
+  border-radius: 25px;
+}
+
+.chatBoxSendText:hover {
+  padding-top: 5px;
+}
+
+.messageItem {
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.messageImageContainer {
+  height: 42px;
+  width: 42px;
+  margin: 0px 5px 0 5px;
+  background-color: #f7fafc;
+  border: 2px solid #f7fafc;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 4px #11111150;
+}
+
+.messageImageContainerMarginFix {
+  margin-top: -36px;
+}
+
+.messageImage {
+  user-select: none;
+  background-color: #bdbfc0;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.messageTextContainer {
+  margin: 5px 0 0 2px;
+}
+
+.messageText {
+  resize: inherit;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 135%;
+  border: 1px solid #bdbfc0;
+  box-shadow: 0 2px 4px #11111150;
+  border-radius: 15px;
+  overflow: hidden;
+}

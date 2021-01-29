@@ -1,0 +1,170 @@
+@media only screen and (min-width: 769px) {
+  .background {
+    margin-top: 80px;
+    padding-left: 0px;
+    background-image: url('backgroundImage.png');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1000px;
+  }
+  .form {
+    margin-top: 120px;
+  }
+  .copyright {
+    color: white;
+    font-size: 13.5;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  .background {
+    margin-top: 90px;
+    padding-left: 0px;
+    background-image: url('backgroundImage.png');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1000px;
+  }
+  .form {
+    margin-top: 100px;
+  }
+  .copyright {
+    color: white;
+    font-size: 13.5;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .background {
+    background-color: #d6f3f3;
+  }
+
+  .form {
+    margin-top: 130px;
+  }
+
+  .login {
+    border: 3px solid #f7fafc;
+    box-shadow: 0 2px 4px #11111150;
+    border-radius: 5px;
+    border: 3px solid #f7fafc;
+    height: auto;
+  }
+  .copyright {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: #823bae;
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+
+.login-link {
+  /* float: left; */
+  color: #888;
+  background-color: blue;
+  text-align: center;
+  /* padding: 24px 10px; */
+  text-decoration: none;
+  font-size: 15px;
+  /* display: inline;
+  margin-right: 50px; */
+
+  /* these last two make the logout button in
+  the nav bar look like another link */
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+/* --------------------------------------------------------------------------------
+Grid
+-------------------------------------------------------------------------------- */
+
+.grid {
+  display: flex;
+  flex: 0 1 auto;
+  /* defaults to 'row' */
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* defaults to 'flex-start' */
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.grid-col {
+  flex: 0 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-col_1 {
+  flex-basis: 8.33333333%;
+  max-width: 8.33333333%;
+}
+
+.grid-col_2 {
+  flex-basis: 16.66666667%;
+  max-width: 16.66666667%;
+}
+
+.grid-col_3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.grid-col_4 {
+  flex-basis: 33.33333333%;
+  max-width: 33.33333333%;
+}
+
+.grid-col_5 {
+  flex-basis: 41.66666667%;
+  max-width: 41.66666667%;
+}
+
+.grid-col_6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.grid-col_7 {
+  flex-basis: 58.33333333%;
+  max-width: 58.33333333%;
+}
+
+.grid-col_8 {
+  flex-basis: 66.66666667%;
+  max-width: 66.66666667%;
+}
+
+.grid-col_9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.grid-col_10 {
+  flex-basis: 83.33333333%;
+  max-width: 83.33333333%;
+}
+
+.grid-col_11 {
+  flex-basis: 91.66666667%;
+  max-width: 91.66666667%;
+}
+
+.grid-col_12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}

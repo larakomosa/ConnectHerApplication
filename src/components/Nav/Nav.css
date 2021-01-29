@@ -1,0 +1,112 @@
+@media only screen and (max-width: 400px) {
+  .ml-auto {
+    display: none !important;
+  }
+  .phone-nav {
+    position: absolute;
+    right: 0;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .phone-nav {
+    display: none !important;
+  }
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.nav-line {
+  /* float: left; */
+  color: #888;
+  /* background-color: #bc91d9; */
+  text-align: center;
+  /* padding: 24px 10px; */
+  text-decoration: none;
+  font-size: 15px;
+  display: inline;
+  margin-right: 50px;
+
+  /* these last two make the logout button in
+  the nav bar look like another link */
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-link {
+    /* float: left; */
+    color: #888;
+    background-color: #17c3ca;
+    text-align: center;
+    /* padding: 24px 10px; */
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 30px !important;
+    border: 2px solid white;
+    color: #f7fafc;
+    box-shadow: 0 2px 4px #11111150;
+    /* display: inline;
+  margin-right: 50px; */
+
+    /* these last two make the logout button in
+  the nav bar look like another link */
+    border: none;
+    cursor: pointer;
+    outline: 0;
+  }
+}
+
+.nav-link {
+  /* float: left; */
+  color: #888;
+  background-color: #17c3ca;
+  text-align: center;
+  /* padding: 24px 10px; */
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 2px !important;
+  border: 2px solid white;
+  color: #f7fafc;
+  box-shadow: 0 2px 4px #11111150;
+}
+
+.navLinkFix:hover {
+  color: #525f7f !important;
+}
+.nav-logout {
+  background-color: #f7fafc;
+  color: #888;
+  display: inline;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.nav-logout:hover {
+  color: #233dd2;
+}
+
+.nav-item {
+  display: inline;
+  color: #f2f2f2;
+  /* margin-right: 5px; */
+}
+
+.nav-piece {
+  display: inline;
+  color: #f2f2f2;
+  margin-right: 5px;
+}
+
+.hamburger {
+  height: 30px;
+  width: 30px;
+}

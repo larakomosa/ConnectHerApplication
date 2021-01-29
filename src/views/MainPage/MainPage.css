@@ -1,0 +1,106 @@
+@media only screen and (min-width: 769px) {
+  .welcomeBanner {
+    margin-top: -75px;
+    margin-bottom: -3px;
+    padding-bottom: -40px;
+    background-image: url(finalBanner.png);
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    box-shadow: 0 2px 4px #11111150;
+  }
+  .altBanner {
+    display: none;
+  }
+  .phone {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  .altBanner {
+    margin-top: -65px;
+    margin-bottom: 5px;
+    padding-bottom: -40px;
+    background-image: url(altBanner.png);
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    box-shadow: 0 2px 4px #11111150;
+  }
+  .welcomeBanner {
+    display: none;
+  }
+  .phone {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .welcomeBanner {
+    display: none;
+  }
+  .altBanner {
+    display: none;
+  }
+  .phone {
+    margin-top: -35px;
+    margin-bottom: 12px;
+    padding-bottom: -40px;
+    background-image: url(phoneBanner1.png);
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    box-shadow: 0 2px 4px #11111150;
+  }
+}
+
+.rounded-divider {
+  border-top: 5px solid #6c5b78;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px #11111150;
+}
+
+.spacing {
+  padding: 2%;
+  display: flexbox;
+}
+
+.community {
+  background-image: url(1.png);
+  background-size: cover;
+  height: 325px;
+}
+.speakers {
+  background-image: url(2.png);
+  background-size: cover;
+  height: 325px;
+}
+.workspaces {
+  background-image: url(4.png);
+  background-size: cover;
+  height: 325px;
+}
+.businesses {
+  background-image: url(3.png);
+  background-size: cover;
+  height: 325px;
+}
+
+.text {
+  display: inline-block;
+  text-align: right;
+}
+
+.spacing-01 {
+  padding: 27%;
+  box-sizing: border-box;
+}
+
+.move {
+  position: fixed;
+  right: 10%;
+  bottom: 17%;
+}

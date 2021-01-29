@@ -1,0 +1,7 @@
+.items:nth-child(2n) {
+  background-color: black;
+}
+
+.modalMobile {
+  margin-top: -90px;
+}

@@ -1,0 +1,14 @@
+.cancelSkill {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.cancelSkill:hover {
+  color: #132dc4;
+  cursor: pointer;
+}
+
+.cancelSkill:active {
+  position: relative;
+  top: 1px;
+}

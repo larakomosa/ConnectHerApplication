@@ -1,0 +1,25 @@
+.categoryHeading {
+    background-color: #F59032;
+    color: white;
+    border: 1px gray solid;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-bottom: 0.5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.categoryHeading:hover {
+    background-color: #e47812;
+    cursor: pointer;
+}
+
+.isActive {
+    background-color: #f7fafc;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    border-left: 1px gray solid;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+}

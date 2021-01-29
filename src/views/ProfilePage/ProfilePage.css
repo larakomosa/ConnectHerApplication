@@ -1,0 +1,35 @@
+@media only screen and (min-width: 769px) {
+  .card-adjust {
+    height: 400px !important;
+    margin-bottom: 20px !important;
+  }
+  .col-spacing {
+    margin-top: 55px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  .profile-pic {
+    object-fit: cover !important;
+    width: 147px !important;
+    height: 147px !important;
+    border-radius: 50% !important;
+  }
+  .details-card {
+    margin-top: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card-adjust {
+    height: 400px !important;
+    margin-top: 70px !important;
+    margin-bottom: 25px !important;
+  }
+  .col-spacing {
+    margin-top: 65px !important;
+  }
+  .details-card {
+    margin-top: 20px !important;
+  }
+}

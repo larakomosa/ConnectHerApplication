@@ -1,0 +1,194 @@
+.chartBox {
+  margin: 0 12.5% 20px 12.5%;
+  border: 3px solid #111111d0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px #11111150;
+  background-color: #d6f3f3;
+  width: 75vw;
+  height: 30vw;
+  display: inline-flex;
+}
+.chartBoxTitle {
+  user-select: none;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-flex;
+  color: #111111d0;
+  font-family: cabin;
+}
+
+.chartGraphs {
+  padding: 2% 0 0 0;
+  border-right: 2px solid #111111;
+  border-radius: 7px 0 0 7px;
+  height: 100%;
+  width: 70%;
+}
+
+.chartGraphsItem {
+  padding-left: 2%;
+  padding-bottom: 1%;
+  border: 2px solid #f7fafc;
+  border-left: 0px;
+  border-right: 0px;
+  width: 50%;
+  box-shadow: 0 2px 4px #11111150;
+}
+
+.chartGraphItemText {
+  user-select: none;
+  font-weight: bold;
+  color: #f7fafc;
+  width: 100%;
+  height: 100%;
+  min-width: 100px;
+  font-size: 1.1vw;
+  margin: 0;
+  margin-bottom: -4px;
+  padding-left: 2%;
+}
+
+.chartLegend {
+  margin: 0 0 0 0px;
+  padding: 2% 0 0 0;
+  border-radius: 0 7px 7px 0;
+  height: 100%;
+  width: 30%;
+  background-color: #bceef0;
+}
+
+.chartLegendItem {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 2px solid #f7fafc;
+  border-left: 0px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 2px 4px #11111150;
+  width: 30%;
+}
+
+.chartLegendAlignText {
+  width: 345%;
+  height: 100%;
+  display: inline-flex;
+}
+
+.chartLegendItemText {
+  display: inline-block;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+  padding-left: 10%;
+  width: 75%;
+  height: 100%;
+  margin: 0;
+  margin-top: -2px;
+  font-size: 1.5vw;
+}
+
+.chartLegendItemPercent {
+  color: #f7fafc;
+  padding-left: 2%;
+  height: 100%;
+  width: 25%;
+  display: inline-block;
+  user-select: none;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.1vw;
+}
+
+.adminButtonLeft {
+  user-select: none;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  /* background-color: #f7fafc;
+  border: 2px solid #111111d0; */
+  margin-bottom: 5px;
+  margin-right: 10px;
+  /* box-shadow: 0 2px 4px #11111150; */
+}
+
+.adminButtonLeft:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 8px #11111170;
+}
+
+.adminButtonLeftImg {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding-top: 3px;
+  padding-right: 11px;
+  font-size: 25px;
+  color: #111111d0;
+}
+.adminButtonRight {
+  user-select: none;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  /* background-color: #f7fafc;
+  border: 2px solid #111111d0; */
+  margin-bottom: 5px;
+  margin-left: 10px;
+  /* box-shadow: 0 2px 4px #11111150; */
+}
+
+.adminButtonRight:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 8px #11111170;
+}
+
+.adminButtonRightImg {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding-top: 3px;
+  padding-right: 7px;
+  font-size: 25px;
+  color: #111111d0;
+}
+
+.adminChartResultsTest {
+  text-align: center;
+  font-weight: bold;
+  color: #111111d0;
+}
+
+.chartPercentileMarkers {
+  width: 52vw;
+  height: 15px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  margin-top: 310px;
+  transform: scaleY(-1);
+}
+
+.chartMarker {
+  border-radius: 10px 10px 0 0;
+  height: 100%;
+  width: 1%;
+  background-color: #111111d0;
+  display: inline-flex;
+}
+
+.chartMarker-0 {
+  margin-left: 1%;
+}
+.chartMarker-1 {
+  margin-left: 8.9%;
+}

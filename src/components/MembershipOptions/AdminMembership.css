@@ -1,0 +1,57 @@
+.admin {
+  margin-top: 40px;
+}
+.heightControl {
+  height: 130px;
+}
+.admin-title {
+  color: #17c3ca;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 'auto';
+  margin-right: 'auto';
+  font-size: 25px;
+  font-family: 'Cabin';
+}
+.admin-options {
+  border: 3px solid #f7fafc;
+  box-shadow: 0 2px 4px #11111150;
+  background-color: #f7fafc;
+  margin-bottom: 10px !important;
+}
+
+.MM_namec {
+  overflow: hidden;
+  width: 80%;
+  height: 100%;
+  font-size: 2vw;
+  margin-left: 20px;
+  padding-top: 0.6vh;
+  display: inline-flex;
+  font-weight: bold;
+  border-right: 1px solid #11111150;
+  margin-block-end: 0;
+}
+.MM_nameb {
+  overflow: scroll;
+  width: 20% !important;
+  margin-top: -3px;
+  margin-bottom: -7px;
+  padding-top: 18px;
+  display: inline-flex;
+  font-weight: bold;
+  border-right: 1px solid #11111150;
+}
+
+.MM_named {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  font-size: 2vw;
+  margin-left: 20px;
+  padding-top: 0.6vh;
+  display: inline-flex;
+  font-weight: bold;
+  border-right: 1px solid #11111150;
+  margin-block-end: 0;
+}

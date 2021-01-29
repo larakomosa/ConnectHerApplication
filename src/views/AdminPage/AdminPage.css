@@ -1,0 +1,58 @@
+.pie {
+  margin-left: 0px;
+  margin-top: -30px !important;
+}
+
+.graph {
+  margin-top: 75px;
+}
+
+.table-dashboard {
+  margin-top: -50px !important;
+  height: 600px !important;
+}
+.arrow {
+  height: 50px;
+  width: 50px;
+}
+
+.column-heading {
+  margin-left: 475px;
+}
+
+.chart-category {
+  margin-left: 600px !important;
+  margin-top: -25px !important;
+}
+
+.tester {
+  background-image: url(banner1.png);
+  background-size: cover;
+  box-shadow: 0 2px 4px #11111150;
+  border-radius: '40px';
+  margin-top: -30px;
+  margin-bottom: 30px;
+  margin-left: 0px !important;
+  padding-left: 10px;
+  padding-right: 60px;
+  width: 1350px;
+  height: 100px;
+}
+
+.adminArrowRight {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.welcomeBanner1 {
+  margin-top: 10px;
+
+  margin-bottom: -3px;
+  padding-bottom: -40px;
+  background-image: url(banner1.png);
+  background-size: cover;
+  height: 120px;
+  width: 100%;
+  box-shadow: 0 2px 4px #11111150;
+}

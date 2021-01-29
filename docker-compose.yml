@@ -1,0 +1,78 @@
+version: '3'
+
+services:
+  ##
+  ## CONTAINER for Client Side Application
+  ## to test service run:
+  ##     docker-compose up --build -d client
+  ## ----------------------------------------
+  client:
+    stdin_open: true
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.client
+    ports:
+      - 3000:3000 # expose ports - HOST:CONTAINER (for create-react-app)
+      - 35729:35729 # expose ports - HOST:CONTAINER (for serviceworker warm reloading)
+    volumes:
+      - './src:/app-client/src'
+      - './public:/app-client/public'
+      - './package.json:/app-client/package.json'
+    depends_on:
+      - server
+    command: npm run client
+  ##
+  ## CONTAINER for Postgres database
+  ## database access URL:
+  ##     postgres://POSTGRES_USER:POSTGRES_PASSWORD@localhost:HOST_PORT/POSTGRES_DB
+  ## to test service run:
+  ##     docker-compose up --build -d database
+  ## ----------------------------------------
+  database:
+    image: postgres:latest
+    restart: always
+    ports:
+      - ${DOCKER_DB_PORT}0:${DOCKER_DB_PORT}
+    environment:
+      POSTGRES_USER: ${DOCKER_DB_USER}
+      POSTGRES_PASSWORD: ${DOCKER_DB_PASS}
+      POSTGRES_DB: ${DATABASE_NAME}
+      POSTGRES_HOST: localhost
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/10-init.sql
+      - ./database/data.sql:/docker-entrypoint-initdb.d/20-data.sql
+  ##
+  ## CONTAINER for Server Application
+  ## to test service run:
+  ##     docker-compose up --build -d server
+  ## ----------------------------------------
+  server:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.server
+    ports:
+      - 5000:5000 # expose ports - HOST:CONTAINER
+    environment:
+      PORT_DB: ${DOCKER_DB_PORT}
+      POSTGRES_USER: ${DOCKER_DB_USER}
+      POSTGRES_PASSWORD: ${DOCKER_DB_PASS}
+      POSTGRES_DB: ${DATABASE_NAME}
+      POSTGRES_HOST: database
+      SERVER_SESSION_SECRET: ${SERVER_SESSION_SECRET}
+      CHOKIDAR_USEPOLLING: 'true'
+      NODE_ENV: ${NODE_ENV}
+      AIRTABLE_API_KEY: ${AIRTABLE_API_KEY}
+      BASE: ${BASE}
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      NODEMAILER_USERNAME: ${NODEMAILER_USERNAME}
+      NODEMAILER_PASSWORD: ${NODEMAILER_PASSWORD}
+
+    volumes:
+      - './server:/app-server/server'
+      - './server/dist:/app-server/dist'
+      - './public:/app-server/public'
+      - './package.json:/app-server/package.json'
+    depends_on:
+      - database
+    command: npm run server

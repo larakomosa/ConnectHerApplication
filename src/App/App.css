@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato:wght@300&display=swap');
+
+</style > html,
+#react-root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  height: 100%;
+  min-height: calc(100vh - 80px);
+  background-color: #e7e7e7;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.heading {
+  margin-top: -20px;
+}
+
+/* --------------------------------------------------------------------------------
+Alert
+-------------------------------------------------------------------------------- */
+
+.alert {
+  box-sizing: border-box;
+  padding: 15px 10px;
+  margin: 15px 0;
+  border: 2px solid #e01616;
+  background-color: #efefef;
+  border-radius: 3px;
+  color: #e01616;
+  font-size: 0.8rem;
+}
+
+/* --------------------------------------------------------------------------------
+Form Treatment
+-------------------------------------------------------------------------------- */
+
+.formPanel {
+  box-sizing: border-box;
+  width: 400px;
+  max-width: 100%;
+  padding: 25px;
+  margin: 0 auto 20px;
+  background-color: #efefef;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgb(0, 0, 0, 0.4);
+}
+
+input {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.fa-heart-custom {
+  cursor: pointer;
+  font-size: 35px;
+  border: 0px solid #00000000;
+}
+
+.fa-heart-custom:hover {
+  font-size: 32px;
+  border-left: 1px solid #00000000;
+  border-bottom: 1px solid #00000000;
+  border-right: 2px solid #00000000;
+  border-top: 2px solid #00000000;
+}

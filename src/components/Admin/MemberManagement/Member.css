@@ -1,0 +1,17 @@
+.MM_table_td_M {
+  background-color: #17c3ca;
+  display: inline-block;
+  width: 50%;
+  border-radius: 3px 3px 0 0;
+}
+
+.MM_detailsAdmin {
+  overflow: hidden;
+  width: 75%;
+  margin-left: 15px;
+  margin-top: -3px;
+  margin-bottom: -7px;
+  padding-top: 18px;
+  display: inline-flex;
+  border-right: 1px solid #11111150;
+}
