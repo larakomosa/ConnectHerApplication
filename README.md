@@ -88,7 +88,6 @@ The following snippet illustrates how a user will utilize and navigate through t
 - Node.js
 - Express
 - Typescript
-- Nodemailer
 - Airtable API
 - Amazon S3 API
 - PostgreSQL
